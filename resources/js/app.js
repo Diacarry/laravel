@@ -20,6 +20,9 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('form-register', require('./components/RegisterFormComponent.vue').default);
+Vue.component('welcome', require('./components/WelcomeComponent.vue').default);
+Vue.component('article', require('./components/ArticleComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
